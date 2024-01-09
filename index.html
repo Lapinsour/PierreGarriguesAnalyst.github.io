@@ -1,0 +1,465 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dimension by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+						<div class="content">
+							<div class="inner">
+								<h1>Pierre Garrigues</h1>
+								<h2>Portfolio</h2>
+								<p>Data Analyst - Python, SQL, Excel, PowerBI</p> 								
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">A propos de moi</a></li>
+								<li><a href="#sql">SQL</a></li>
+								<li><a href="#Python">Python</a></li>
+								<li><a href="#FdF">Projet "Feux de Forêt"</a></li>								
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">A propos de moi</h2>								
+								<p>Après plusieurs années à travailler en presse écrite, pour des rédactions économiques, j'ai décidé de me former à la data analyse. Un an (et beaucoup de travail) plus tard, je suis officiellement diplômé de la Formation Data Analyst de Datascientest, co-certifiée avec l'université Paris Sorbonne et les Mines ParisTech PSL ; et du bloc 3 de la certification “Chef de projet en intelligence artificielle” du Collège de Paris, enregistrée au RNCP. </p>
+								<p><a href="images/Portfolio.png" target="_blank"><img  src="images/Portfolio.png" width="550" height="367" alt="quelques exemples de dataviz" /></a></p>
+								<p>Je maîtrise Python pour la Data Science, et ses librairies Pandas, Numpy, Matplotlib, Seaborn, Plotly, SciKit-Learn... Je travaille également en SQL, notamment sur MSSQL. Je peux ainsi intervenir à chacune des étapes du parcours de la donnée, de sa collecte (fichiers JSON, Excel, CSV, Data-mining, Text-mining) à sa visualisation interactive (PowerBI, Tableau) en passant bien sûr par son nettoyage, son exploration et son analyse en Python, sur Excel ou en SQL, et même par la création de pipelines via l'ETL Talend.</p>
+								<p> Le truc en plus : mes expériences variées dans le domaine du journalisme m'ont permis de développer ma rigueur, mon organisation, et mon sens de la pédagogie, trois qualités que je mets désormais au service de l'analyse de données !</p>
+								<p>Vous trouverez ici <a href="images/Pierre_Garrigues_Data_Analyst_CV (1).pdf" target = "_blank">mon CV complet</a>. Bonne navigation !</p>
+							</article>
+
+						<!-- SQL -->
+							<article id="sql"><h1 align="center">Manipulation de données en SQL</h1>
+								
+									<a href = "https://github.com/Lapinsour/Portfolio/blob/main/SQLExploration_de_donn%C3%A9es.ipynb"	target="_blank">
+									<h3 class="major" align="justify">Exploration de données en SQL</h3>
+									<span class="image main"><img src="images/SQL.png" alt="" /></span></a>
+									<p>Dans ce projet, j'ai exploré en SQL les données d'une table que j'avais préalablement et aléatoirement créée.</p>
+									<p>J'ai pu créer, modifier et insérer des données dans des tables, utiliser des Window Functions, des jointures, CASE WHEN ou encore ROW_NUMBER pour explorer les données de ces tables.</p>
+								
+
+									<a href = "https://github.com/Lapinsour/Portfolio/blob/main/SQLNettoyage_de_donn%C3%A9es.sql" target="_blank">
+									<h3 class="major" align="justify">Nettoyage de données en SQL</h3>
+									<span class="image main"><img src="images/Nashville.jpg" alt="" /></span></a>
+									<p>Dans ce projet, j'ai nettoyé en SQL les données d'une table présentant le marché immobilier de Nashville, Tennessee.</p>
+									<p>Dans MSSQL, j'ai formaté les dates de vente des biens immobiliers, remplacé les valeurs NULL en effectuant un JOIN, créé plusieurs colonnes à partir d'une colonne, ou encore supprimé les doublons.</p>
+
+
+									<a href = "https://github.com/Lapinsour/ProjetPortfolio_Covid/blob/main/SQLQueryCovidPortfolio.sql" target="_blank">
+									<h3 class="major" align="justify">Exploration de données <br />sur la pandémie de Covid-19 en SQL</h3>
+									<span class="image main"><img src="images/corona.jpg" alt="" /></span></a>
+									<p>Dans ce projet, j'ai analysé en SQL les données par pays de contamination et de vaccination au et contre l'épidémie de Covid-19, entre mars 2020 et avril 2021. </p>
+									<p>Dans MSSQL, j'ai ainsi représenter l'évolution du taux de mortalité du virus en France et dans le monde, son taux de contamination par pays, le nombre de morts par pays et par continent. En utilisant une CTE, j'ai également créé une vue de la hausse du taux de vaccination. </p>
+								
+							</article>
+							
+
+						<!-- Python -->
+						<article id="Python"><h1 align="center">Manipulation de données en Python</h1>
+							<a href = "https://github.com/Lapinsour/Portfolio/blob/main/PY_Movies_Corr%C3%A9lation.ipynb"	target="_blank">	
+							<h3 class="major" align="justify">Films & Corrélation</h3>
+							<span class="image main"><img src="images/films.jpg" alt="" /></span></a>
+							<p>Dans ce projet, j'ai analysé en Python les données d'un DataFrame standard contenant les budgets, revenus et notes du publics de nombreux films.</p>
+							<p>Après avoir exploré et nettoyé les données, j'ai pu réveler et visualiser la corrélation du budget et des revenus... et la décorrelation du budget et du score du public.</p>
+						
+
+						
+							<a href = "https://github.com/Lapinsour/Portfolio/blob/main/Feature%20importance%20(1).ipynb" target="_blank"><h3 class="major" align="justify">Feature Importance</h3>
+							<span class="image main"><img src="images/working.jpg" alt="" /></span></a>
+							<p>Quelles sont les raisons qui poussent un salarié à quitter son entreprise ? Dans ce projet, j'ai analysé un DataFrame contenant les données de salariés ayant ou non démissionné. </p>
+							<p>En utilisant la librairie SciKit-Learn, un RandomForestClassifier et une visualisation sur Matplotlib, j'ai pu déterminer que les facteurs déterminants du départ d'un employé sont d'une part son niveau de satisfaction, et d'autre part le nombre de projets qui lui étaient alloués.</p>
+						
+							
+							<a href = "https://github.com/Lapinsour/Portfolio/blob/main/Sankey%20Diagram.ipynb" target="_blank">
+							<h3 class="major" align="justify">Diagramme de Sankey</h3>
+							<span class="image main"><img src="images/Sankey.png" alt="" /></span></a>
+							<p>Ce notebook retrace la création grâce à la librairie Plotly d'un Diagramme de Sankey, présentant les catastrophes naturelles survenues en Amérique Centrale et en Amérique du Sud entre 1900 et 2021 ; ainsi que la préparation des données nécessaires à la création du graphique.</p>
+
+						</article>
+
+						<!-- FdF -->
+						<article id="FdF">
+							<h1 align="center"><a href = "#feuxdef">Projet <br />"Feux de Forêt"</h1></a>
+							<h4 align="center">Exploration, Analyse, Nettoyage, Visualisation et Prédiction de données relatives à 1,9 million de feux de forêt survenus aux Etats-Unis entre 1992 et 2015</h4>
+							<p align = "center"><i><a href = "https://github.com/Lapinsour/Feux_de_Foret"	target="_blank">Accéder au projet complet sur Github</a></i></p>
+							<p align = "center"><i><a href = "#feuxdef">Découvrir les différentes étapes du projet</a></i></p>				
+							<span class="image main"><img src="images/Firefighter.jpg" alt="" /></span>
+							<p>Ce projet, effectué en groupe de 4, consiste en l'exploration ; le nettoyage ; l'analyse ; la datavisualisation d'un dataset contenant les données d'1,9 million de feux de forêt déclarés sur le territoire des Etats-Unis entre 1992 et 2015. Nous avons pour cela utilisé différentes librairies de Python : Pandas, Numpy, Matplotlib, Seaborn, Plotly, Plotly Express. Par la suite, nous avons élaboré un modèle de prédiction des feux de forêt à partir de ces données, grâce à SciKit-Learn.</p>
+							
+						</article>
+
+						<!-- Feux -->
+						<article id="feuxdef">
+							<h2>Introduction</h2>
+							<p>Réchauffement climatique oblige, les feux de forêt ont connu une inquiétante progression aux Etats-Unis depuis une trentaine d'années. A partir d'un Dataset Kaggle, 3 collègues et moi-même avons élaboré un outil de prédiction capable de prévoir le nombre d'incendies de forêt qui se déclareront dans un comté donné, un mois donné, en fonction des conditions météorologiques.</p>
+
+							<h3 class="major" align="justify"><a href = "https://github.com/Lapinsour/Feux_de_Foret/blob/main/01-Analyse%20des%20donn%C3%A9es.ipynb"	target="_blank">01 - Exploration et Valeurs manquantes</a></h3>
+							<p>Partant de <a href = https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires >ce Dataset</a>, qui contient les informations (taille, localisation, date) d'1,88 million d'incendies de forêt déclarés aux Etats-Unis entre 1992 et 2015, nous analysons, entre autres, les nombreuses valeurs manquantes qui pourraient géner notre exploration. Ces valeurs manquantes sont-elles réparties uniformément à travers tous les Etats, par exemple ? </p>
+
+							<h3 class="major" align="justify"><a href = "https://github.com/Lapinsour/Feux_de_Foret/blob/main/02-Regroupement%20et%20Nettoyage%20des%20donn%C3%A9es.ipynb"	target="_blank">02 - Premières analyses</a></h3>
+							<p>Dans un souci de clarté, nous nettoyons le dataset : la douzaine de causes à l'origine des feux est regroupée en 4 catégories, et les Etats par région. Nous supprimons les variables redondantes.</p>
+
+							<h3 class="major" align="justify"><a href = "https://github.com/Lapinsour/Feux_de_Foret/blob/main/03-%20DataViz%20Nombre%20de%20feux%20par%20Etat%20et%20par%20An%20.ipynb"	target="_blank">03 - Premières Dataviz</a></h3>
+							<span class="image main"><img src="images/feux_causes_états.png" alt="" /></span>
+							<span class="image main"><img src="images/feux_causes.jpeg.png" alt="" /></span>
+							<span class="image main"><img src="images/feux_états.png" alt="" /></span>
+							<p>Nous voyons dans ces premières visualisations que tous les états ne sont pas logés à la même enseigne en ce qui concerne le nombre de feux déclarés sur leur territoire, et surtout que les causes et les tailles des feux différent sensiblement d'un Etat à l'autre.</p>
+
+							<h3 class="major" align="justify"><a href = "https://github.com/Lapinsour/Feux_de_Foret/blob/main/04-%20DataViz%20Cartes%20Folium.ipynb"	target="_blank">04 & 05 - Création de cartes interactives</a></h3>
+							<span class="image main"><a href = "https://github.com/Lapinsour/Feux_de_Foret/blob/main/04-%20DataViz%20Cartes%20Folium.ipynb"	target="_blank"><img src="images/carte_feu.jpeg.png" alt="" /></a></span>
+							<span class="image main"><a href = "https://github.com/Lapinsour/Feux_de_Foret/blob/main/05-%20DataViz%20Cartes%20Choropl%C3%A8tes%20%C3%A9volutives.ipynb"	target="_blank"><img src="images/vid_map.gif" alt="" /></a></span>
+							<p>Rien de mieux, pour comprendre des données géographiques, que de les visualiser sous forme de cartes. Nous en réalisons plusieurs, grâce aux librairies Folium et Plotly. Elles sont interactives et permettent de constater l'évolution par état du nombre de feux déclarés chaque année, mais également de comparer ces chiffres avec l'étendue totale incendiée, qui n'est pas forcément corrélée au nombre de feux : en Alaska, par exemple, un petit nombre d'incendies se déploient sur de très grandes étendues, car ils sont souvent déclenchés par la foudre dans des zones fortement boisées et peu peuplées, donc inaccessibles aux pompiers. </p>
+
+							<h3 class="major" align="justify"><a href = "https://github.com/Lapinsour/Feux_de_Foret/blob/main/06-%20DataViz%20Donn%C3%A9es%20Temporelles.ipynb"	target="_blank">06 - Exploration des données temporelles</a></h3>
+							<span class="image main"><img src="images/temps_feux.png" alt="" /></span>
+							<span class="image main"><img src="images/temps_feux2.png" alt="" /></span>							
+							<p>Une fois l'exploration géographique effectuée, nous nous interessons aux variables de temps. Nous utilisons pour cela la librairie Seaborn. La prépondérance des horaires diurnes dans la distribution des feux est logique : l'heure de déclenchement des feux, dans la dataset, correspond à l'heure où ils ont été déclarés - donc, plutôt en journée. Par ailleurs, l'activité humaine est plutôt diurne, tout comme les incendies qui, malheureusement, en résultent. </p>
+
+							<h3 class="major" align="justify"><a href = "https://github.com/Lapinsour/Feux_de_Foret/blob/main/07-%20%20Analyse%20des%20M%C3%A9gafeux.ipynb"	target="_blank">07 - Analyse des Mégafeux</a></h3>
+							<span class="image main"><img src="images/megafeux.png" alt="" /></span>
+							<span class="image main"><img src="images/megafeux2.png" alt="" /></span>							
+							<p>Les "Mégafeux" sont des incendies qui s'étendent selon la définition américaine sur plus de 10.000 hectares. Sans surprise, ils sont surreprésentés en Alaska, et ont surtout des origines naturelles.</p>
+
+							<h3 class="major" align="justify"><a href = "https://github.com/Lapinsour/Feux_de_Foret/blob/main/08-%20Ajout%20des%20donn%C3%A9es%20m%C3%A9t%C3%A9o.ipynb"	target="_blank">08 - Enrichissement du Dataset</a></h3>
+							<p>Notre objectif est clair : créer à partir de ce Dataset un outil de prédiction des feux potentiellement utile aux forces de pompiers. Mais ces données sont à cet égard très incomplètes : nous ne disposons par exemple d'aucune data météorologique, topologique... bref, rien de ce qui se trouve dans notre Dataset ne peut réellement "expliquer" la survenue d'un feu.<br /> Or, les paramètres qui permettent de prédire un feu sont extrêmement nombreux : températures moyenne et maximale, niveaux de précipitations et de chutes de neige actuel et passé, force du vent, présence de certaines essences d'arbres... Autant de données qu'il est très difficile de trouver en accès libre et standardisé. La plupart des datasets que nous trouvons comportent de (très) nombreuses valeurs manquantes. Parfois, les données sont trop chères pour nous.<br /> Nous parvenons toutefois à exploiter la base de données météorologiques du gouvernement américain, récapitulant par mois et par comté les températures et le niveau de précipitations depuis 1896. Nous ajoutons ces données à notre Dataset.</p>
+						
+							<h3 class="major" align="justify"><a href = "https://github.com/Lapinsour/Feux_de_Foret/blob/main/09-%20Pr%C3%A9diction%20du%20nombre%20de%20feux%20sur%20l'Etat%20de%20NY.ipynb"	target="_blank">09 - Prédiction du nombre de feux<br /> sur l'Etat de New York</a></h3>
+							<p>Avant de récupérer ces données supplémentaires, nous avons sélectionné dans notre dataset un Etat sur lequel nous pencher. Nous avions deux critères : il fallait d'une part que l'Etat en question contienne le moins possible de valeurs manquantes ou inutilisables dans la variable "COUNTY", qui signale le comté dans lequel s'est produit le feu. D'autre part, l'Etat devait compter le plus grand nombre possible de feux de forêt, afin d'obtenir un dataset aussi important que possible.
+								<br />Selon nos analyses lors de l’exploration du dataset, l’Etat répondant le mieux  à ces deux critères est l'État de New York : 7ème État le plus touché par les feux de forêt, avec plus de 80.000 occurrences dans le dataset initial, il est également le 2ème État le moins concerné par les valeurs manquantes dans la colonne "COUNTY", avec 1% de NAs. À ce stade, il faut préciser qu'il nous aurait été possible de retrouver à quel comté appartenaient les feux de forêt dont le comté n'était pas précisé dans le dataset, en croisant la longitude et la latitude de chaque feu avec les coordonnées géographiques de chaque comté. Toutefois, faute de temps, nous avons préféré simplement supprimer les NAs, qui ne représentaient donc qu'un centième de nos données. 
+								Nous pouvons préciser également que l'État de New York est le 4ème État le plus peuplé des Etats Unis et sa superficie est équivalente à la taille de l’Angleterre. Sa géographie est très diversifiée avec des zones très urbaines comme la ville de New-York mais aussi des zones rurales et de nombreux parcs et réserves naturelles. 
+								Avec tous ces éléments en tête, nous comprenons facilement pourquoi la prévention des feux de forêt y est un enjeu majeur.
+								 </p>
+								 <span class="image main"><img src="images/NY.png" alt="" /></span>
+								 <p>Nos analyses sur l'Etat de New-York à partir du Dataset enrichi confirment nos intuitions.</p>
+								 <span class="image main"><img src="images/scores.png" alt="" /></span> 
+								 
+							<p>Une fois les données nettoyées, transformées et un get_dummies opéré sur le dataset New York (sur les variables County-State, Année et Mois), les résultats de notre modèle de régression, basé sur un sklearn.ensemble.RandomForestRegressor, ont été encourageants. Les mean squared error sur l’échantillon de test et d’entraînement obtenues sont relativement faibles. Elles sous-entendent une erreur de 1 à 3 feux sur le nombre de feux total de feux pouvant se déclencher sur un mois entier dans un comté de NY - cela représente une erreur inférieure dans tous les cas à 10% par jour. D’un point de vue métier, cette erreur est selon nous tout à fait acceptable dans la mesure où les ressources et moyens engagés sur les feux de forêt ne seront pas drastiquement impactés par cette erreur. Ceci est néanmoins à nuancer avec l’étendue des feux qui pourrait contredire ce postulat. Mais, dans la mesure où nous constatons dans nos analyses que les feux dont l’étendue est importante représentent seulement une infime partie des feux de forêt, nous pouvons accepter cette erreur.
+							</p>
+
+							<h3 class="major" align="justify"><a href = "https://github.com/Lapinsour/Feux_de_Foret/blob/main/08-%20Ajout%20des%20donn%C3%A9es%20m%C3%A9t%C3%A9o.ipynb"	target="_blank">10 - Extension du modèle de prédiction<br /> à tous les Etats-Unis</a></h3>
+							<p>Une fois ce premier modèle sur NY testé, nous décidons d’essayer d’obtenir des résultats pertinents sur l’ensemble des Etats des Etats-Unis et de calculer une moyenne globale des MAE et MSE correspondantes. Nous disposons donc pour chaque Etat des Etats Unis un résumé des métriques par Etat. En y appliquant une moyenne sur tous les Etats nous obtenons les chiffres suivants concernant la prédiction du nombre de feux :</p>
+							<span class="image main"><img src="images/111.png" alt="" /></span>
+							<p>Notons que pour chaque État nous ré-entraînons le modèle afin d’obtenir des résultats plus précis. <a href="https://github.com/Lapinsour/Feux_de_Foret/blob/main/11-%20M%C3%A9triques%20de%20la%20pr%C3%A9diction%20du%20nombre%20de%20feux.ipynb" target = "_blank">Les MAE obtenues indiquent une erreur en moyenne inférieure à 1</a> dans la prédiction du nombre de feu par mois.
+								Les résultats sur l’ensemble des comtés sont assez homogènes et oscillent entre : </p>
+							<span class="image main"><img src="images/222.png" alt="" /></span>
+							<p>En regardant la MAE, on peut donc conclure que notre modèle fait des erreurs comprises entre 0 et 4 feux sur un mois entier ce qui représente un taux d’erreur très faible si on le ramène à un taux d’erreur journalier.</p>
+
+							<h2>Conclusion</h2>	
+							<p>Nous tirons de nos travaux un modèle de prédiction efficace, basé sur un RandomForestRegressor, qui pourra être utilisé par les agences fédérales responsables de la gestion des feux de forêts dans les comtés de tous les Etats-Unis. Elles pourront ainsi en amont de la “saison des feux” planifier et préparer des plans de gestion des incendies basés sur l’estimation du nombre de feux de forêt susceptibles de se déclarer sur leur territoire durant un mois M – dès lors que l’on peut prédire les conditions météorologiques du mois M. 
+								<br />Ce modèle permettrait par exemple aux comtés d’organiser le plus efficacement possible la formation des agents, la mise à disposition adaptée d’engins terrestres et aériens ainsi que le pré-positionnement des patrouilles.
+								
+								<br />Nous ne sommes pour le moment pas parvenus à élaborer un modèle capable de prédire parfaitement le nombre de feux au jour près, ou un modèle capable de prédire l’étendue de ces feux. Nous manquons probablement de variables, comme les paramètres liés au vent ou à la répartition des casernes de pompiers, difficiles à récupérer à notre niveau. Il s'agit de l'une des pistes d'amélioration de notre modèle de prédiction sur lesquelles nous pourrions nous pencher.
+								</p>
+
+						
+						</article>
+
+					
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h3 align="center">Tél : 07.69.79.94.31</h3>
+								<h3 align="center">Mail : pierregarrigues.cfj@gmail.com</h3>
+								<ul class="icons" align="center">
+									<li align><a href="https://twitter.com/GarriguesPierre" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.linkedin.com/in/pierre-garrigues-527385136/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>									
+									<li><a href="https://github.com/Lapinsour" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+
+							
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
